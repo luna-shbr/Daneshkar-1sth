@@ -1,0 +1,30 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+html {
+::selection {
+    color: black;
+    background: var(--main_orangetext);
+  }
+     font-family: 'Archivo', Helvetica, Arial, sans-serif;
+}
+
+
+:root {
+    --main_orangetext: #FCA80F;
+    --main_purple: #473288; 
+    --main_orangeback : #FFF4E0;
+    --button_dark : #7B66EF;
+    --button_light: #C5C4FC;
+    --background_purple: #372B7D;
+    --menu_background: #1F1945;
+    --title_size: 3.2rem;
+    --chiptext_size :1.4rem;
+    --description_size: 1.3rem
+}
